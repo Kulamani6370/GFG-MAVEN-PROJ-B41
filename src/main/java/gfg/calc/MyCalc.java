@@ -25,6 +25,9 @@ public class MyCalc {
 	{
 		System.out.println("Hello GitHub Actions");
 	}
+	public void myFucntion(){
+		System.out.println("Kulamani Mohanta");
+	}
 
 	public static void main(String[] args) {
 		
