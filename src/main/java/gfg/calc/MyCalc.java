@@ -28,7 +28,9 @@ public class MyCalc {
 	public void myFucntion(){
 		System.out.println("Kulamani Mohanta");
 	}
-
+	public void HelloWorld(){
+		System.out.println("Hello World");
+	}
 	public static void main(String[] args) {
 		
 		MyCalc calc = new MyCalc();
@@ -38,7 +40,7 @@ public class MyCalc {
 		System.out.println("Div is "+calc.div(20,10));
 		System.out.println("Mod is "+calc.mod(20,10));
 		calc.show();
-
+		calc.HelloWorld();
 	}
 
 }
